@@ -20,9 +20,12 @@ const Favorites = () => {
         <>
             <h1>Favorites</h1>
             <ul>
-                {favorites.map((favorite) => (
-                    <li key={favorite.id}>{favorite.movie}</li>
-                ))
+                {
+                    favorites.map(
+                        (favorite) => (
+                            <li key={favorite.id}>{favorite.movie}</li>
+                        )
+                    )
                 }
             </ul>
         </>
