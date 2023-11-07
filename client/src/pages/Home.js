@@ -5,7 +5,7 @@ import Search from "../components/Search";
 import Movies from "../components/Movies";
 
 export default function Home() {
-  const API = "https://www.omdbapi.com/?apikey=ffe9f21a";
+  const API = "https://www.omdbapi.com/?apikey=f06e6a50";
   const [movies, setMovies] = useState([]);
   const [search, setSearch] = useState("");
   const searchMovies = async (searchValue) => {
