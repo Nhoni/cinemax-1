@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import cinemaxLogo from "../assets/cinemax-lg.png";
-
+import Nav from "../components/Nav";
 import Search from "../components/Search";
 import Movies from "../components/Movies";
 
@@ -23,6 +23,7 @@ export default function Home() {
 
   return (
     <div className="App">
+      <Nav />
       <header>
         <img src={cinemaxLogo} className="logo" alt="logo cinemax" />
         <Search
